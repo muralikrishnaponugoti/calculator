@@ -1,5 +1,5 @@
 body{
-    box-sizing: border-box;
+    overflow:hidden;
     height:100%;
 }
 html{
@@ -9,7 +9,6 @@ html{
     text-align: right;
     height:10rem;
     width:100%;
-    box-sizing: border-box;
 }
 #display h1{
     line-height: 40%;
@@ -26,7 +25,6 @@ html{
     display:flex;
     flex-wrap: wrap;
     gap:1%;
-    box-sizing: border-box;
 }
 button{
     border-radius: 2em;
