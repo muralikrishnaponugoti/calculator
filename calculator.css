@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    height:100%;
+}
+html{
+    height:100vh;
+}
+#display{
+    text-align: right;
+    height:10rem;
+    width:100%;
+    box-sizing: border-box;
+}
+#display h1{
+    line-height: 40%;
+    font-size:4.5rem;
+    margin:0px;
+}
+#display p{
+    font-size:xx-large;
+    color:gray;
+}
+#main-values{
+    width:100%;
+    height:70%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1%;
+    box-sizing: border-box;
+}
+button{
+    border-radius: 2em;
+    background-color: cyan;
+    min-width:24%;
+    height:19%;
+    max-width:49%;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+h1{
+    display:inline-block;
+}
